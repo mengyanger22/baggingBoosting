@@ -42,7 +42,7 @@ def match(s1, s2):
     
     return ans
 
-path = "D:\linux\opt\pjs\\baggingBoosting\\01-RandomForest\HR_comma_sep.csv"
+path = "D:\linux\opt\pjs\\baggingBoosting\data\HR_comma_sep.csv"
 df = pd.read_csv(path, index_col=None)
 # print(df.isnull().any())
 # print(df.head())
